@@ -24,7 +24,13 @@ public class CatController {
     }
 
     @PostMapping()
-    public CatDto createCat(CatDto catDto) {
+    public CatDto createCat(@RequestBody CatDto catDto) {
         return catService.create(catDto);
     }
+
+    @PatchMapping("/{id}")
+    public CatDto updateCat(@PathVariable Long id) { return catService.update(id); }
+
+    @DeleteMapping("/{id}")
+    public void deleteCat(@PathVariable Long id) { catService.delete(id); }
 }
