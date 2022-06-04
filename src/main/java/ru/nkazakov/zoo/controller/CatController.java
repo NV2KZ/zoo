@@ -28,8 +28,8 @@ public class CatController {
         return catService.create(catDto);
     }
 
-    @PatchMapping("/{id}")
-    public CatDto updateCat(@PathVariable Long id) { return catService.update(id); }
+    @PutMapping("/{id}")
+    public CatDto updateCat(@RequestBody CatDto catDto) { return catService.update(catDto); }
 
     @DeleteMapping("/{id}")
     public void deleteCat(@PathVariable Long id) { catService.delete(id); }
