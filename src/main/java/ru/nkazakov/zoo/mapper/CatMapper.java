@@ -7,6 +7,7 @@ public class CatMapper {
 
     public static CatDto mapToDto(Cat cat) {
         return CatDto.builder()
+                .id(cat.getId())
                 .name(cat.getName())
                 .weight(cat.getWeight())
                 .color(cat.getColor())

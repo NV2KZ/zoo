@@ -1,0 +1,355 @@
+GET http://localhost:8080/cat
+
+<> 2022-06-10T191139.200.json
+
+###
+
+GET http://localhost:8080/cat/4
+
+<> 2022-06-10T191128.200.json
+
+###
+
+PUT http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "id" : 4,
+  "name": "Мурзье",
+  "weight": 3,
+  "color": "WHITE"
+}
+
+<> 2022-06-10T191123.200.json
+
+###
+
+GET http://localhost:8080/cat/4
+
+<> 2022-06-10T191055.200.json
+
+###
+
+PUT http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "id" : 4,
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-10T191037.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-10T190945.405.json
+
+###
+
+GET http://localhost:8080/cat
+
+<> 2022-06-10T190930.200.json
+
+###
+
+GET http://localhost:8080/cat/3
+
+<> 2022-06-10T190926.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T155910.415.json
+
+###
+
+PUT http://localhost:8080/cat/4
+{:
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}:
+
+<> 2022-06-04T155852.400.html
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T155836.500.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T155752.405.json
+
+###
+
+PUT http://localhost:8080/cat/4
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T155634.405.json
+
+###
+
+PATCH http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T154921.500.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T154904.405.json
+
+###
+
+GET http://localhost:8080/cat/3
+
+<> 2022-06-04T154510.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T154459.500.json
+
+###
+
+POST http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "name": "Бегемот",
+  "weight": 6,
+  "color": "BLACK"
+}
+
+<> 2022-06-04T153818.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T153448.500.json
+
+###
+
+GET http://localhost:8080/cat/3
+
+<> 2022-06-04T153221.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T153120.415.json
+
+###
+
+GET http://localhost:8080/cat/3
+
+<> 2022-06-04T153023.200.json
+
+###
+
+PUT http://localhost:8080/cat/3
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T153006.500.json
+
+###
+
+GET http://localhost:8080/cat/4
+
+<> 2022-06-04T152942.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 2,
+  "color": "WHITE"
+}
+
+<> 2022-06-04T152937.500.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 4,
+  "color": "BLACK"
+}
+
+<> 2022-06-04T152215.500.json
+
+###
+
+GET http://localhost:8080/cat/4
+
+<> 2022-06-04T152200.200.json
+
+###
+
+PUT http://localhost:8080/cat/4
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 4,
+  "color": "BLACK"
+}
+
+<> 2022-06-04T152056.500.json
+
+###
+
+GET http://localhost:8080/cat/4
+
+<> 2022-05-30T213836.200.json
+
+###
+
+GET http://localhost:8080/cat
+
+<> 2022-05-30T213824.200.json
+
+###
+
+POST http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "name": "Мурзик",
+  "weight": 4,
+  "color": "WHITE"
+}
+
+<> 2022-05-30T213820.200.json
+
+###
+
+POST http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "name": "Мурка",
+  "weight": 3,
+  "color": "GINGER"
+}
+
+<> 2022-05-30T213724.200.json
+
+###
+
+POST http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "name": "Мурка",
+  "weight": 3,
+  "color": "GINGER"
+}
+
+<> 2022-05-30T213534.500.json
+
+###
+
+POST http://localhost:8080/cat
+Content-Type: application/json
+
+{
+  "name": "Мурка",
+  "weight": 3,
+  "color": "GINGER"
+}
+
+<> 2022-05-30T213508.500.json
+
+###
+

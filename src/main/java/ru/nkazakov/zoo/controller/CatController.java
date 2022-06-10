@@ -28,7 +28,7 @@ public class CatController {
         return catService.create(catDto);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping()
     public CatDto updateCat(@RequestBody CatDto catDto) { return catService.update(catDto); }
 
     @DeleteMapping("/{id}")
