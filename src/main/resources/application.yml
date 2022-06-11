@@ -3,3 +3,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/zoo
     username: postgres
     password: 'postgres'
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yml
+    default-schema: public
