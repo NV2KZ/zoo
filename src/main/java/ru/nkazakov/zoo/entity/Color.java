@@ -4,5 +4,6 @@ public enum Color {
     GINGER,
     WHITE,
     BLACK,
+    MULTICOLOR,
     GRAY
 }
